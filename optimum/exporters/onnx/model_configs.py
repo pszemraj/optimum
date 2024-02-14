@@ -656,6 +656,10 @@ class PegasusOnnxConfig(BartOnnxConfig):
     pass
 
 
+class PegasusXOnnxConfig(BartOnnxConfig):
+    DEFAULT_ONNX_OPSET = 12
+
+
 class MarianOnnxConfig(BartOnnxConfig):
     pass
 
