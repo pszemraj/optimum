@@ -839,7 +839,7 @@ class TasksManager:
             "text2text-generation-with-past",
             onnx="PegasusOnnxConfig",
         ),
-        "pegasus_x": supported_tasks_mapping(
+        "pegasus-x": supported_tasks_mapping(
             "feature-extraction",
             "feature-extraction-with-past",
             "text2text-generation",
