@@ -245,6 +245,7 @@ class NormalizedConfigManager:
         "nystromformer": NormalizedTextConfig,
         "opt": NormalizedTextConfig,
         "pegasus": BartLikeNormalizedTextConfig,
+        "pegasus-x": BartLikeNormalizedTextConfig,
         "pix2struct": Pix2StructNormalizedTextConfig,
         "phi": NormalizedTextConfig,
         "poolformer": NormalizedVisionConfig,

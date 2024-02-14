@@ -126,6 +126,7 @@ class ORTConfigManager:
         "m2m-100": "bart",
         "nystromformer": "bert",
         "pegasus": "bert",
+        "pegasus-x": "bert",
         "roberta": "bert",
         "t5": "bert",
         "vit": "vit",
