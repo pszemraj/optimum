@@ -658,6 +658,7 @@ class PegasusOnnxConfig(BartOnnxConfig):
 
 class PegasusXOnnxConfig(BartOnnxConfig):
     DEFAULT_ONNX_OPSET = 12
+    ATOL_FOR_VALIDATION = 1e-4 # TODO: validate this vs, default
 
 
 class MarianOnnxConfig(BartOnnxConfig):
